@@ -30,7 +30,7 @@ date.sendKeys("1/04/2022");
 WebElement dat = driver.findElement(By.id ("datepick_out"));
 dat.click();
 dat.clear();
-dat.sendKeys("5/04/2022");
+dat.sendKeys("6/04/2022");
 
 new Select(driver.findElement(By.id("adult_room"))).selectByIndex(3);
 new Select(driver.findElement(By.id("child_room"))).selectByIndex(2);
